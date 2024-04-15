@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Title</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="common.css">
+    <style>
+        .select-box ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .select .select-box li {
+            display: inline-block;
+            width: calc(50% - 10px);
+        }
+        .select .select-box a {
+            width:100%;
+        }
+        .btn-confirm {
+            width:60%!important;
+            margin-left:20%;
+            margin-top:10px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="wrap" class="select">
+    <header>
+        <a href="policy.html" class="btn-back">Back</a>
+        <h2>step2</h2>
+    </header>
+    <div id="container">
+        <div class="content">
+            <strong class="txt-notice">A,B,C,D 디자인을<br>
+                각각 확인하고<br>
+                설문에 응답해 주세요</strong>
+            <p class="txt-desc">각 유형의(A,B,C,D) 디자인을 확인한 뒤,<br>
+                설문에 답변해 주세요(하단 버튼).</p>
+            <div class="select-box">
+                <ul>
+                    <li>
+                        <a href="typeA.html">A형 디자인 보기</a>
+                    </li>
+                    <li>
+                        <a href="typeB.html">B형 디자인 보기</a>
+                    </li>
+                    <li>
+                        <a href="typeC.html">C형 디자인 보기</a>
+                    </li>
+                    <li>
+                        <a href="typeD.html">D형 디자인 보기</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="https://forms.gle/k5x97bXh1PXAdz986" class="btn-next">설문 응답 가기</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
